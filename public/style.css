@@ -1,0 +1,84 @@
+    * {
+        box-sizing: border-box;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .container {
+        overflow: hidden;
+        height: 550px;
+       width:90%;
+        position: absolute;
+        right:auto;
+        top: 50px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    }
+.incoming h4,.outgoing h4{
+        margin: 1px;
+    }
+    .incoming,.outgoing{
+margin: 10px;
+    }
+
+    .incoming p {
+        margin: 1px;
+        border-radius: 10px;
+        padding:10px;
+        background-color: rgb(87, 127, 200);
+        color: white;
+        width: 200px;
+    }
+
+    .outgoing p {
+        border-radius: 10px;
+        margin: 5px;
+        padding: 10px;
+        color: white;
+        width: 200px;
+        background-color: rgb(172, 188, 216);
+
+    }
+
+    h5 {
+        margin: 5px
+    }
+
+    .logo {
+        position: relative;
+        bottom: 20px;
+        padding: 20px;
+        top: 0px;
+        height: 12%;
+        color: white;
+        background-color: darkgray;
+    }
+
+    #recive {
+        background-color: darkseagreen;
+    }
+
+    h1 {
+        position: relative;
+        bottom: 25px;
+    }
+
+    .outgoing {
+        margin-left: auto;
+    }
+
+    #msgarea {
+        overflow-y: auto;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .msg {
+        background-color: rgb(241, 237, 237);
+        resize: none;
+        border: none;
+        width: 100%;
+        height:41px;
+        outline: none;
+
+    }
